@@ -1,5 +1,5 @@
 
-let seconds = 10;
+let seconds = 25;
 let correctAnswer = 0;
 let incorrectAnswer = 0;
 
@@ -7,10 +7,21 @@ function getElement(id){
     return document.getElementById(id)
 }
 
+function getRandomPrezidents(){
+    return Prezidents [Math.floor(Math.random(Prezidents.length-1)*10)]
+}
+function home () {
+    Pre = getRandomPrezidents();
+    getElement("prezident").src = Pre.Prezident;
+    
+}
+
+
 function timer() {
     setTimeout(finish, seconds * 1000)
     getElement("time").innerHTML = seconds;
     let countdown = setInterval(function () {
+        home();
         seconds--;
         getElement("time").textContent = seconds;
         if (seconds <= 0) {
@@ -43,3 +54,7 @@ function finish() {
 }
 let chekInterval = setInterval(chek, 50);
 timer()
+
+// var randomNum = Math.floor(Math.random() * Prezident.length);
+
+// console.log(randomNum)
