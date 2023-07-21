@@ -21,167 +21,180 @@ const Prezidents = [
       "name": "Mohammed Shahabuddin",  
    },
    {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
+      "Prezident": "./photo/Albania.jpg",
+      "name": "Bajram Begaj",  
    },
    {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
+      "Prezident": "./photo/Aljir.jpg",
+      "name": "Abdelmadjid Tebboune",  
    },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
-   {
-      "Prezident": "./photo/Belgia.jpg",
-      "name": "Charles Michel",  
-   },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   // {
+   //    "Prezident": "./photo/Bangladesh.jpg",
+   //    "name": "Mohammed Shahabuddin",  
+   // },
+   
 ]
