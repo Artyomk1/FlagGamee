@@ -1,45 +1,39 @@
 let correct;
-let seconds = 25;
+let seconds = 5;
 let correctAnswer = 0;
 let incorrectAnswer = 0;
 
-function getElement(id){
+function getElement(id) {
     return document.getElementById(id)
 }
 
-function getRandomPrezidents(){
-    return Prezidents [Math.floor(Math.random() * (Prezidents.length-1))]
+function getRandomPrezidents() {
+    return Prezidents[Math.floor(Math.random() * (Prezidents.length - 1))]
 }
-function home () {
-    Pre = getRandomPrezidents();
-    getElement("prezident").src = Pre.Prezident;
-    
-}
+
 function main() {
     let options = [];
-    const max0options = 3;
-    while (options.length < max0options) {
+    const maxOptions = 3;
+    while (options.length < maxOptions) {
         let coun = getRandomPrezidents();
-        if (options.indexOf(coun) === -1){
+        if (options.indexOf(coun) === -1) {
             options.push(coun);
         }
     }
     for (let i = 0; i < options.length; i++) {
-    getElement(`option${i + 1}label`).innerHTML = options[i].name;
-    getElement(`option${i + 1}label`).value = options[i].name;
-    getElement(`option${i + 1}label`).checked  = false;
+        getElement(`option${i + 1}label`).innerHTML = options[i].name;
+        getElement(`option${i + 1}input`).value = options[i].name;
+        getElement(`option${i + 1}input`).checked = false;
     }
-    correct = optios[Math.round(Math.random() * (options.length - 1))]
-    getElement("Prezident").src = correct.Prezidents;
-
+    correct = options[Math.round(Math.random() * (options.length - 1))];
+    getElement("prezident").src = correct.Prezident;
 }
-    
+
 
 function timer() {
     setTimeout(finish, seconds * 1000)
     getElement("time").innerHTML = seconds;
     let countdown = setInterval(function () {
-        home();
         seconds--;
         getElement("time").textContent = seconds;
         if (seconds <= 0) {
@@ -54,36 +48,35 @@ function check() {
     let input;
     try {
         input = document.querySelector('input[name = "option"]:checked').value;
-    }catch {
+    } catch {
         return;
     }
     if (input === correct.name) {
-    correctAnswer++;
-    getElement("score").innerHTML = correctAnswer
-} else{
-    incorrectAnswer++;
-}
-main();
+        correctAnswer++;
+        getElement("score").innerHTML = correctAnswer
+    } else {
+        incorrectAnswer++;
+    }
+    main();
 }
 function finish() {
     clearInterval(chekInterval);
-    let percentage = (correctAnswer / (correctAnswer+incorrectAnswer)) * 100;
-    if(isNaN(percentage)){
-        resultForAnswers =100;
-    }else{
-        if(percentage>=75 && percentage <95){
-            resultForAnswers = "duq cucaberel eq lav ardynq"
-        }
-        else if(percentage >= 95){
-            resultForAnswers = "duq cucaberel eq gerazanc ardynq"
-        }
+    getElement("alert").style.display = "block";
+    getElement("card").style.display = "none";
+    getElement("alertscore").innerHTML = correctAnswer;
+    let percentage = (correctAnswer / (correctAnswer + incorrectAnswer)) * 100;
+    if (isNaN(percentage)) {
+        percentage = 0;
     }
-    getElement("alertaccuracy").innerHTML = `Քո արդյունքն է ${percentage}%`;
+    getElement("alertaccuracy").innerHTML = `Is your result ${percentage}%`;
 }
+
+function refresh() {
+    location = location;
+  }
+
+
 let chekInterval = setInterval(check, 50);
 main();
 timer()
 
-// var randomNum = Math.floor(Math.random() * Prezident.length);
-
-// console.log(randomNum)
