@@ -82,7 +82,7 @@ const Prezidents = [
    },
    {
       "Prezident": "./photo/Hollande.jpeg",
-      "name": "François Hollande",  
+      "name": "Francois Hollande",  
    },
    {
       "Prezident": "./photo/Laos.jpg",

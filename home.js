@@ -1,5 +1,5 @@
 let correct;
-let seconds = 5;
+let seconds = 60;
 let correctAnswer = 0;
 let incorrectAnswer = 0;
 
@@ -40,7 +40,7 @@ function timer() {
             clearInterval(countdown);
         }
         if (seconds === 5) {
-            getElement("time").style.color = "#ff0000";
+            getElement("time").style.color = "#FCFF00";
         }
     }, 1000);
 }
